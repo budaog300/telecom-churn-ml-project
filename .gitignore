@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (если не хочешь хранить датасеты в гите)
+*.csv
+*.xlsx
+*.parquet
+
+# Logs
+*.log
+
+# Models / artifacts
+*.pkl
+*.joblib
+
+# Large outputs
+outputs/
+results/
+
+*.csv
